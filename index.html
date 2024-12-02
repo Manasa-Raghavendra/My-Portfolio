@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Manasa BR</title>
+  <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Manasa BR</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">🌙</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="bubbles">
+      <div class="bubble bubble1"></div>
+      <div class="bubble bubble2"></div>
+      <div class="bubble bubble3"></div>
+      <div class="bubble bubble4"></div>
+      <div class="bubble bubble5"></div>
+      <div class="bubble bubble6"></div>
+      <div class="bubble bubble7"></div>
+      <div class="bubble bubble8"></div>
+      <div class="bubble bubble9"></div>
+      <div class="bubble bubble10"></div>
+      <div class="bubble bubble11"></div>
+      <div class="bubble bubble12"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="floating-text">
+        <span class="word">Hello,</span>
+        <span class="word">I</span>
+        <span class="word">'m</span>
+        <span class="word">Manasa</span>
+      </h1>
+      <p>CSE (AI) Student | MIT Mysore</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m an undergraduate engineering student passionate about artificial intelligence and game design. 
+      I enjoy creating projects that solve real-world problems while exploring the creative world of technology.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">Python</div>
+      <div class="skill">HTML & CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">2D Game Development</div>
+      <div class="skill">Artificial Intelligence</div>
+      <div class="skill">GitHub Projects</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>CGPA Calculator</h3>
+      <p>A Python desktop application for calculating and visualizing academic CGPAs with a percentage converter.</p>
+    </div>
+    <div class="project-card">
+      <h3>2D Game</h3>
+      <p>An interactive 2D game with engaging levels and custom animations.</p>
+    </div>
+    <div class="project-card">
+      <h3>Academic Portfolio</h3>
+      <p>An attractive portfolio built using HTML, CSS, JavaScript, and Python, showcasing academic achievements.</p>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>If you'd like, feel free to reach out. I'd love to hear from you!</p>
+  <div class="contact-links">
+    <!-- Email -->
+    <a href="mailto:manasabr0708@gmail.com" target="_blank">
+      <img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail Icon"> Email
+    </a>
+    <!-- GitHub -->
+    <a href="https://github.com/Manasa-Raghavendra" target="_blank">
+      <img src="https://img.icons8.com/material-outlined/50/000000/github.png" alt="GitHub Icon"> GitHub
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/manasa-b-r-855654302" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn Icon"> LinkedIn
+    </a>
+    <!-- Instagram -->
+    <a href="https://instagram.com/iam_manasa07" target="_blank">
+      <img src="https://img.icons8.com/ios-glyphs/50/000000/instagram-circle.png" alt="Instagram Icon"> Instagram
+    </a>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Manasa BR | Designed with passion</p>
+  </footer>
+
+  <!-- JavaScript for Theme Toggle -->
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-theme');
+      themeToggle.textContent = body.classList.contains('dark-theme') ? '🌞' : '🌙';
+    });
+  </script>
+</body>
+</html>
